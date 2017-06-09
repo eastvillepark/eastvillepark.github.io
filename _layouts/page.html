@@ -1,5 +1,11 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+    <body id="page-top">
 <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top navbar-fixed-top-index">
+    <nav class="navbar navbar-default navbar-fixed-top navbar-shrink">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header page-scroll">
@@ -19,16 +25,16 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#about">About</a>
+                        <a class="page-scroll" href="/#about">About</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#facilities">Facilities</a>
+                        <a class="page-scroll" href="/#facilities">Facilities</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#friends">Friends Group</a>
+                        <a class="page-scroll" href="/#friends">Friends Group</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#team">Location</a>
+                        <a class="page-scroll" href="/#team">Location</a>
                     </li>
                 </ul>
             </div>
@@ -36,20 +42,23 @@
         </div>
         <!-- /.container-fluid -->
     </nav>
-
-    <!-- Header -->
-    <header>
+    <section id="page">
         <div class="container">
-            <div class="intro-text">
-                <div class="intro-lead-in">Welcome To Our Park!</div>
-                <div class="intro-heading">Please enjoy yourself</div>
-                <!--<a href="#services" class="page-scroll btn btn-xl">News</a>-->
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">{{ page.title }}</h2>
+                    <h3 class="section-subheading text-muted">{{ page.subtitle }}</h3>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-4">
+                {{ content }}
+                </div>
             </div>
         </div>
-    </header>
-<!--
-        {% for page in site.pages %}
-          {% if page.title %}<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>{% endif %}
-        {% endfor %}
- -->
+    </section>
+    {% include footer.html %}
+    {% include js.html %}
 
+    </body>
+</html>
