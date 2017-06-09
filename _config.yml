@@ -1,0 +1,32 @@
+url: https://eastvillepark.org.uk
+baseurl:
+
+# Site settings
+title: Eastville Park
+email: info@eastvillepark.org.uk
+description: "Eastville park is a large, beautiful area in Bristol. Consisting of playing fields, a lake, river, tennis courts, play areas, and a disused outdoor bathing area."
+
+collections:
+- facilities
+
+location:
+  - latitude: 51.4753
+    longitude: -2.55573
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: https://twitter.com/eastvillepark
+  - title: facebook
+    url: https://www.facebook.com/eastvillepark/
+  - title: github
+    url: http://github.com/eastvillepark/eastvillepark.github.io
+
+address:
+  - line: Fishponds Road
+  - line: Bristol,  BS5 6PX
+  - line: United Kingdom
+
+# Build settings
+markdown: kramdown
+permalink: pretty
