@@ -1,6 +1,7 @@
 ---
 title: Newsletters
-layout: newsletters
+subtitle: Friends of Eastville Park
+layout: page
 --
 
 <ul>
