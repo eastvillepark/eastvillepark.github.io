@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Newsletter - March 2018"
+subtitle: "The story so far"
 date:   2018-03-31 12:00:00 +0100
 categories: [ friends-of-eastville-park newsletter ]
 ---
