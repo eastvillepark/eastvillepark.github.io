@@ -1,0 +1,68 @@
+--
+title: Newsletters
+---
+
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+    <body id="page-top">
+<!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top navbar-shrink">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">{{site.title}}</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="/#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="/#facilities">Facilities</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="/#friends">Friends Group</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="/#team">Location</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    <section id="page">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Friends of Eastville Park</h2>
+                    <h3 class="section-subheading text-muted">Newsletters}</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                {{ content }}
+                </div>
+            </div>
+        </div>
+    </section>
+    {% include footer.html %}
+    {% include js.html %}
+
+    </body>
+</html>
