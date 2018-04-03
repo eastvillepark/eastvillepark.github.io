@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: newsletter
 title:  "Newsletter - March 2018"
 date:   2018-03-31 12:00:00 +0100
 categories: [ friends-of-eastville-park newsletter ]
