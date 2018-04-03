@@ -50,8 +50,8 @@
                     <h3 class="section-subheading text-muted">{{ post.subtitle }}</h3>
                 </div>
             </div>
-            <div class="row text-center">
-                <div class="col-md-4">
+            <div class="row">
+                <div class="col-md-12">
                 {{ content }}
                 </div>
             </div>
